@@ -9,21 +9,22 @@ interface MessageProps {
 
 const Message = ({ message, errMessage }: MessageProps) => {
   return (
-    <>
+    <div className="">
+      {" "}
       {(message && (
-        <div className="mt-3 flex gap-4">
+        <div className="mt-3 flex items-center justify-center gap-y-4 text-xs">
           <Chip
             startContent={<CheckIcon height={20} width={20} size={20} />}
             variant="light"
             color="success"
           >
-            {message} Redirecting{" "}
+            {message}
             <Spinner color="success" size="sm" className="mr-2" />
           </Chip>
         </div>
       )) ||
         (errMessage && (
-          <div className="mt-3 flex gap-4">
+          <div className="mt-3 flex items-center justify-center gap-y-4 text-xs">
             <Chip
               startContent={<RejectedIcon />}
               variant="light"
@@ -45,7 +46,7 @@ const Message = ({ message, errMessage }: MessageProps) => {
             </div>
           </div>
         )}
-    </>
+    </div>
   );
 };
 

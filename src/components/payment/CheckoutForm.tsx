@@ -139,18 +139,14 @@ const CheckoutForm = () => {
       if (paymentResult.error) {
         setErrMessage(`Payment failed: ${paymentResult.error.message}`);
       } else {
-        setMessage(
-          `Payment succeeded! Amount received: ${
-            paymentResult.paymentIntent.amount_received / 100
-          } USD.`,
-        );
+        setMessage(`Payment succeeded! Redirecting...`);
 
         if (user) {
           dispatch(addOrder({ order: paymentResult, userId: user.id }));
           dispatch(clearConfirmedItems({ userId: user.id }));
         }
         setTimeout(() => {
-          router.push("/my-orders");
+          router.push("/");
         }, 1000);
       }
     } catch (err) {

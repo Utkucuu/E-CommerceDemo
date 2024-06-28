@@ -1,0 +1,115 @@
+
+pages/
+┣ api/
+┃ ┗ payment.intents.ts
+┃ ┃ 
+public/
+┣ icon/
+┃ ┗index.jsx
+src/
+┣ api/
+┃ ┗ index.ts
+┣ app/
+┃ ┣ cart/
+┃ ┃ ┣ payment/
+┃ ┃ ┃ ┗ page.tsx
+┃ ┃ ┗ page.tsx
+┃ ┣ category/
+┃ ┃ ┗ [slug]/
+┃ ┃   ┗ page.tsx
+┃ ┣ favorites/
+┃ ┃ ┗ page.tsx
+┃ ┣ my-orders/
+┃ ┃ ┗ page.tsx
+┃ ┣ product-detail/
+┃ ┃ ┗ [category]/
+┃ ┃   ┗ [id]/
+┃ ┃ ┃   ┗ [title]/
+┃ ┣ sign-in/
+┃ ┃ ┗ [[...sign-in]]/
+┃ ┃   ┗ page.tsx
+┃ ┣ sign-up/
+┃ ┃ ┗ [[...sign-up]]/
+┃ ┃   ┗ page.tsx
+┃ ┣ globals.css
+┃ ┣ layout.tsx
+┃ ┣ loading.tsx
+┃ ┣ not-found.tsx
+┃ ┣ page.tsx
+┃ ┣ providers.tsx
+┃ ┗ ReduxProvider.tsx
+┣ components/
+┃ ┣ footer/
+┃ ┃ ┣ FooterItem.tsx
+┃ ┃ ┗ index.tsx
+┃ ┣ header/
+┃ ┃ ┣ Header.tsx
+┃ ┃ ┣ MenuItem.tsx
+┃ ┃ ┗ UserNavbarContent.tsx
+┃ ┣ myOrders/
+┃ ┃ ┣ DropdownActions.tsx
+┃ ┃ ┣ FilterAndEmail.tsx
+┃ ┃ ┣ MyOrders.tsx
+┃ ┃ ┣ OrderModal.tsx
+┃ ┃ ┣ OrderPDF.tsx
+┃ ┃ ┣ OrderTable.tsx
+┃ ┃ ┗ PaginationControls.tsx
+┃ ┣ payment/
+┃ ┃ ┣ AddressForm.tsx
+┃ ┃ ┣ CardDetailsForm.tsx
+┃ ┃ ┣ CheckoutForm.tsx
+┃ ┃ ┣ Message.tsx
+┃ ┃ ┣ PaymentForm.tsx
+┃ ┃ ┗ ProductsTabContent.tsx
+┃ ┣ productLayouts/
+┃ ┃ ┣ cardGroup/
+┃ ┃ ┃ ┣ CardItem.tsx
+┃ ┃ ┃ ┗ index.tsx
+┃ ┃ ┣ cartProducts/
+┃ ┃ ┃ ┣ CartProductItem.tsx
+┃ ┃ ┃ ┣ ConfirmTheCart.tsx
+┃ ┃ ┃ ┗ index.tsx
+┃ ┃ ┣ favoriteProducts/
+┃ ┃ ┃ ┣ FavoriteProductItem.tsx
+┃ ┃ ┃ ┗ index.tsx
+┃ ┃ ┗ productDetail/
+┃ ┃   ┗ index.tsx
+┃ ┣ slickCarousel/
+┃ ┃ ┗ SlickCarousel.tsx
+┃ ┗ ui/
+┃   ┣ buttons/
+┃ ┃ ┃ ┣ AddToCartBtn.tsx
+┃ ┃ ┃ ┣ AddToFavoriteBtn.tsx
+┃ ┃ ┃ ┣ ConfirmTheCartBtn.tsx
+┃ ┃ ┃ ┣ PaymentBackBtn.tsx
+┃ ┃ ┃ ┗ PaymentNextBtn.tsx
+┃   ┣ cartProductItemQuantity/
+┃ ┃ ┃ ┗ index.tsx
+┃   ┣ cartProductItemSize/
+┃ ┃ ┃ ┗ index.tsx
+┃   ┣ checkedbox/
+┃ ┃ ┃ ┗ CheckedITem.tsx
+┃   ┣ pageTitle/
+┃ ┃ ┃ ┗ index.tsx
+┃   ┣ rating/
+┃ ┃ ┃ ┗ index.tsx
+┃   ┗ searchInput/
+┃ ┃   ┣ SearchInput.tsx
+┃ ┃   ┗ SearchResults.tsx
+┣ data/
+┃ ┗ locations.json
+┣ features/
+┃ ┣ cartSlice.ts
+┃ ┣ favoriteSlice.ts
+┃ ┣ index.ts
+┃ ┗ ordersSlice.ts
+┣ hoc/
+┃ ┗ withAuth.tsx
+┣ hooks/
+┃ ┗ useCurrentUser.ts
+┣ store/
+┃ ┗ index.ts
+┣ utils/
+┃ ┗ index.ts
+┣ middleware.ts
+┗ types.ts

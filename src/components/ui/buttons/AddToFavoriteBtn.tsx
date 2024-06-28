@@ -42,12 +42,12 @@ export default function AddToFavoriteBtn({
   return (
     <Button
       isIconOnly
-      className={`absolute z-30 bg-white  ${classname}`}
+      className={`absolute z-30 rounded-full bg-white ${classname}`}
       onClick={handleAddToFavorites}
     >
-      <span className="rounded-full">
+      
         {isFavorited && user ? <FavFull /> : <FavEmpty />}
-      </span>
+     
     </Button>
   );
 }

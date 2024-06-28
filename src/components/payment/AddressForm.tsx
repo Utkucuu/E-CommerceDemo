@@ -50,6 +50,7 @@ const AddressForm = ({
         label="Email"
         name="email"
         type="email"
+        placeholder="user@example.com"
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         errorMessage="Please enter a valid email address"
       />
@@ -61,6 +62,7 @@ const AddressForm = ({
         size="sm"
         label="Phone"
         name="phone"
+        placeholder="11-digit"
         type="tel"
         pattern="^\+?[1-9]\d{1,14}$"
         errorMessage="Please enter a valid phone number"

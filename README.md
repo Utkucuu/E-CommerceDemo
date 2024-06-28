@@ -1,6 +1,14 @@
+
+
+
+ <img src="./public/image/readmeImg.png" width="500" height="auto" alt="Fakestore API"/>
+
 # E-CommerceDemo
 
-E-CommerceDemo is an e-commerce demo where users can browse various products, add them to their cart, and place orders. Local storage is used for some operations in the project. It is live on Vercel: [E-CommerceDemo Live](https://e-commerce-demo-ochre.vercel.app) .
+E-CommerceDemo is an e-commerce demo where users can browse various products, add them to their cart, and place orders. Local storage is used for some operations in the project. It is live on Vercel: [E-CommerceDemo Live](https://e-commerce-demo-ochre.vercel.app).
+
+[Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M) .
+
 
 ## Features
 

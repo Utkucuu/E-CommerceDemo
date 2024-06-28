@@ -47,7 +47,7 @@ export default function CardItem({
           isZoomed
         />
         <div className="my-auto flex items-center justify-center">
-          <p className="w-full pb-0 text-xs font-thin text-slate-600">
+          <p className="w-full pb-0 text-xs mt-1 font-thin text-slate-600">
             {productItem.title}
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function CardItem({
           <div>
             <p className="text-default-500">${productItem.price} </p>
           </div>
-          <div className="mb-3">
+          <div className="my-3">
             <AddToCartBtn productItem={productItem} classname={"pr-2"} />
           </div>
         </div>

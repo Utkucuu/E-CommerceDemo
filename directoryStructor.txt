@@ -2,10 +2,11 @@
 pages/
 ┣ api/
 ┃ ┗ payment.intents.ts
-┃ ┃ 
 public/
 ┣ icon/
-┃ ┗index.jsx
+┃ ┗ index.jsx
+┣ image/
+┃ ┗ readmeImg.png
 src/
 ┣ api/
 ┃ ┗ index.ts

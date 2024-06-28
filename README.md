@@ -5,9 +5,11 @@
 
 # E-CommerceDemo
 
-E-CommerceDemo is an e-commerce demo where users can browse various products, add them to their cart, and place orders. Local storage is used for some operations in the project. It is live on Vercel: [E-CommerceDemo Live](https://e-commerce-demo-ochre.vercel.app).
+E-CommerceDemo is an e-commerce demo where users can browse various products, add them to their cart, and place orders. Local storage is used for some operations in the project. 
 
-[Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M) .
+It is live on Vercel: [E-CommerceDemo Live](https://e-commerce-demo-ochre.vercel.app)
+
+Youtube: [Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M)
 
 
 ## Features

@@ -34,7 +34,7 @@ const Payment = () => {
         <Card className="">
           <CardBody className="flex flex-col justify-between">
             <ul className="overflow-y-auto rounded-lg p-3">
-              {addedToConfirmCartProduct?.length! > 0 ? (
+              {cartTotal > 0 ? (
                 addedToConfirmCartProduct?.map(
                   (productItem, index) =>
                     productItem.addedToConfirmCart && (
@@ -48,8 +48,8 @@ const Payment = () => {
                 <PageTitle titleContent="No confirmed products found" />
               )}
             </ul>
-            {(addedToConfirmCartProduct.length && (
-              <div className="flex items-end justify-between pt-2 font-bold w-full">
+            {(cartTotal > 0 && (
+              <div className="flex w-full items-end justify-between pt-2 font-bold">
                 <div className="text-end text-warning-500">
                   Total: ${cartTotal}
                 </div>

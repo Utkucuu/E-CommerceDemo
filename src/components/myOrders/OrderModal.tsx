@@ -115,15 +115,16 @@ export default function OrderModal({
                   <div key={index}>
                     <h2 className="mb-2 font-bold">Product {index + 1}</h2>
 
-                    <div className="mb-4 mt-3 flex rounded-lg border p-4 text-start text-xs font-bold">
+                    <div className="mb-4 mt-3 flex flex-col sm:flex-row rounded-lg border p-4  text-start text-xs font-bold mx-auto">
                       <Image
-                        width={100}
-                        height={50}
-                        src={product.image}
                         alt={product.title}
+                        className="h-[120px] w-[120px] mx-auto sm:mx-0 rounded-xl border-1 border-slate-200 object-contain p-1"
+                        src={product.image}
+                        width={120}
+                        height={120}
                       />
 
-                      <div className="ms-10">
+                      <div className=" ms-0 sm:ms-10 mt-5 sm:mt-0">
                         <h3>{`${product.title} 
                        ${product.size ? ` - ${product.size}` : ""} `}</h3>
 

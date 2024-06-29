@@ -70,7 +70,7 @@ Youtube: [Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M)
   </a>
 </div>
 
-##### React: 18 & Next: 14.2.3
+##### React: 18 & Next.js: 14.2.3
 
 - For other versions, see the [package.json](https://github.com/Utkucuu/E-CommerceDemo/blob/master/package.json) file.
 

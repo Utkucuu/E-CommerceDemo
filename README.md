@@ -105,7 +105,6 @@ Youtube: [Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M)
    CLERK_SECRET_KEY=<YOUR_SECRET_KEY>
    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   API_URL=<https://fakestoreapi.com/>
    STRIPE_SECRET_KEY=<YOUR_SECRET_KEY>
    NEXT_PUBLIC_STRIPE_API_KEY=<YOUR_STRIPE_API_KEY>
    ```

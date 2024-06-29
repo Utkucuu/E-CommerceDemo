@@ -82,7 +82,7 @@ Youtube: [Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M)
 
 ###### Authentication [Clerk](https://clerk.com/)
 
-### Adım Adım Kurulum
+### Step-by-Step Installation
 
 ### Requirements
 
@@ -121,6 +121,14 @@ Youtube: [Video presentation](https://www.youtube.com/watch?v=b7ggSHUDF1M)
 ### Structor
 
 - To examine the directory structure, see the [directoryStructor](https://github.com/Utkucuu/E-CommerceDemo/blob/master/directoryStructor.txt) file.
+
+
+### Redux DevTools
+
+- [Chrome](https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/redux-devtools/nnkgneoiohoecpdiaponcejilbhhikei)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+
 
 ### License
 
